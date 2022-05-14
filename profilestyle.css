@@ -1,0 +1,89 @@
+body{
+    background-color: #e9eaea;
+}
+.Nav{
+    height:50px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(36, 45, 205);
+}
+
+.searchBox{
+    width:200px;
+    height:15px;
+    border-radius: 5px;
+    border-color: #e9eaea;
+    padding: 7px;
+    font-size:15px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+#profile_pic{
+    width: 150px;
+    margin-top: -200px;
+    border-radius: 80px;
+    border: solid 2px white;
+}
+
+#menu_button{
+    font-size: 20px;
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+
+#friends_img{
+    width: 75px;
+    float: left;
+    margin: 8px;
+}
+
+#friends_bar{
+    background-color: white;
+    font-size: 25px;
+    min-height: 400px;
+    margin-top: 20px;
+    color: rgb(36, 45, 205);
+    padding: 8px;
+
+}
+#friends{
+clear: both;
+font-size: 20px;
+font-weight: bold;
+color:rgb(36, 45, 205);
+}
+
+textarea{
+width: 100%;
+border: none;
+font-size: 15px;
+height: 70px;
+}
+
+#post_button{
+width: 50px;
+float: right;
+background-color: rgb(36, 45, 205);
+border: none;
+color: white;
+padding:5px;
+font-size: 15px;
+border-radius: 3px;
+text-align: center;
+}
+
+#posr_bar{
+margin-top: 20px;
+background-color: white;
+padding: 10px;
+}
+
+#post{
+    background-color: white;
+    padding: 5px;
+    font-size: 18px;
+    display: flex;
+    margin: 10px;
+}
